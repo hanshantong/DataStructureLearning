@@ -121,6 +121,7 @@ void MSortClass<T>::HeapSort() //∂—≈≈–Ú
 		temp = R[0];
 		R[0] = R[i];
 		R[i] = temp;
+		
 		sift(0, i);
 	}
 
